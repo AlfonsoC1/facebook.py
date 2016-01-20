@@ -16,6 +16,6 @@ emailElem.send_keys(userEmail)
 passwordElem = browser.find_element_by_id('pass')
 passwordElem.send_keys(userPassword)
 
-signInElem = browser.find_element_by_id('u_0_n')
+signInElem = browser.find_element_by_id('loginbutton')
 signInElem.click()
 
